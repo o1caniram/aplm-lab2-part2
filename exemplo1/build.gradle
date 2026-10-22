@@ -1,0 +1,13 @@
+defaultTasks 'buildTask'
+
+task compileTask {
+    doLast {
+        System.out.println("compiling...")
+    }
+}
+
+task buildTask {
+    doLast {
+        System.out.println("building...")
+    }
+}
